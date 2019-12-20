@@ -1,0 +1,8 @@
+{
+    "reporterEnabled": "spec, mocha-junit-reporter",
+    "mochaJunitReporterReporterOptions": {
+        "mochaFile": "./reports/junit-report.xml",
+        "jenkinsMode": true,
+        "rootSuiteTitle": "Vkids_API_Testing"
+    }
+}
