@@ -1,4 +1,4 @@
-import { get, post, put } from './../utils/Request';
+import { get, post } from './../utils/Request';
 import paths from '../resources/Paths';
 import { sprintf } from 'sprintf-js';
 
@@ -13,7 +13,7 @@ class Api {
   }
 
   getUserPosts(userId) {
-    return get(sprintf(paths.GET_USER_POSTS, postId));
+    return get(sprintf(paths.GET_USER_POSTS, userId));
   }
 
   postNewPost(postData) {
