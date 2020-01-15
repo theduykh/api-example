@@ -1,0 +1,20 @@
+version: 2
+jobs:
+  test:
+    docker:
+      - image: circleci/node:jessie
+    steps:
+      - checkout
+      - run:
+          name: Install Node Modules
+          command: npm install
+      - run:
+          name: Test
+          command: npm test
+      - store_test_results:
+          path: reports
+workflows:
+  version: 2
+  test:
+    jobs:
+      - test
