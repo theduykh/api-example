@@ -9,3 +9,6 @@ https://jsonplaceholder.typicode.com/
 ```npm install```
 2. Run test
 ```npm test```
+
+## CircleCI
+https://circleci.com/gh/theduykh/api-mocha/tree/master
