@@ -1,5 +1,5 @@
 {
-  "name": "vkids-api",
+  "name": "api-mocha",
   "version": "1.0.0",
   "description": "API testing for Vkids",
   "scripts": {
